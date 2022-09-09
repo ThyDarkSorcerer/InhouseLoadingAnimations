@@ -223,26 +223,26 @@ namespace LoadingAnimations {
             `, SpriteKind.InhouseLoadingAnimation));
             text.right = scene.screenWidth() / 2; text.y = scene.screenHeight() / 2;
             text.setFlag(SpriteFlag.Invisible, true);
-            text.image.print("A game by", 0, 0, 1);
-            text.image.print("UnsignedArduino", 0, 10, 1);
+            text.image.print("   A game by   ", 0, 0, 1);
+            text.image.print("ArclightStudios", 0, 10, 1);
 
             const logo: Sprite = this.optimize_sprite(sprites.create(img`
                 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555fff555555ff
-                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555fff555555ff
-                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555fff555555ff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555555555555ff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5f55555555555f5ff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555555555555ff
+                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff55555fff55555fff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fffff555ffff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fffff555ffff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fffff555ffff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fffff555ffff
+                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff55555fff55555fff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555555555555ff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5f55555555555f5ff
+                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555555555555ff
                 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -265,18 +265,18 @@ namespace LoadingAnimations {
                 fffffffffffffffffff
                 fffffffffffffffffff
                 fffffffffffffffffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                ff555555fff555555ff
-                ff555555fff555555ff
-                ff555555fff555555ff
+                ff555555555555555ff
+                ff5f55555555555f5ff
+                ff555555555555555ff
+                fff55555fff55555fff
+                ffff555fffff555ffff
+                ffff555fffff555ffff
+                ffff555fffff555ffff
+                ffff555fffff555ffff
+                fff55555fff55555fff
+                ff555555555555555ff
+                ff5f55555555555f5ff
+                ff555555555555555ff
                 fffffffffffffffffff
                 fffffffffffffffffff
                 fffffffffffffffffff
